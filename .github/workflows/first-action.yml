@@ -1,4 +1,4 @@
-name: CI
+name: First Wrkflow
 on: [workflow_dispatch]
 jobs:
   build:
@@ -7,4 +7,4 @@ jobs:
       - name: Print greating
         run: echo "Hello, world!"
       - name: Print goodbye
-        run: "Done - buy!"
+        run: echo "Done - buy!"
